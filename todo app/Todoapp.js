@@ -31,9 +31,9 @@ function added(nece) {
         td.innerHTML = nece;
        
         col2.appendChild(tr)
-        var span= document.createElement("button");
-        span.innerHTML = "delet";
-        span.className = "d-inline";
+        var span= document.createElement("span");
+        span.innerHTML = "Delete";
+        span.className = "delet";
         span.className = "text-danger";
         
         tr.appendChild(td);
