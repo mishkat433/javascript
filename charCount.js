@@ -29,3 +29,4 @@ clear.addEventListener("click", function(){
     character.innerHTML = 0;
     word.innerHTML = 0;
 })
+// end
